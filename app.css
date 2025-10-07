@@ -1,0 +1,56 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #364fc7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0%;
+}
+
+.container{
+    background-color: #bac8ff;
+    padding: 70px;
+    /* border-radius: 12px; */
+    width: 500px;
+    height: 400px;
+}
+
+h1{
+    text-align: center;
+    margin-top:-3rem ;
+    margin-bottom: 20px;
+    font-weight: lighter;
+}
+
+label, p{
+    font-weight: 500px;
+}
+
+.form{
+    margin-bottom: 15px;
+    display: flex;
+    gap: 10px;
+}
+
+input[type="school"]{
+    width: 60%;
+    padding: 3px;
+}
+
+input[type="text"],
+input[type="email"]{
+    width: 27%;
+    padding:3px ;
+    border: 1px solid black;
+}
+
+input[type="checkbox"]{
+    margin-right: 20px;
+    cursor: pointer;
+}

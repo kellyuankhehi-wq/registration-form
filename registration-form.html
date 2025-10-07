@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    <title>School Registration Form</title>
+</head>
+<body>
+    <div class="container">
+        <form action="">
+            <h1>School Championship Registration Form</h1>
+
+            <!-- school name -->
+            <div class="form">
+                <label for="school">School name<span style="color:red;">*</span></label>
+                <input type="school" id="school" name="school" placeholder="Name of School">
+            </div>
+
+            <!-- schooler name -->
+             <div class="form">
+                <label for="name">Schooler name<span style="color:red;">*</span></label>
+                <input type="text" id="name" name="name" placeholder="First">
+                <input type="text" id="name" name="name" placeholder="Last">
+             </div>
+             
+             <!-- parent name -->
+             <div class="form">
+                <label for="guidiance name">Parent name<span style="color:red;">*</span></label>
+                <input type="text" id="name" name="name" placeholder="First">
+                <input type="text" id="name" name="name" placeholder="Last">
+             </div>
+
+             <!-- parent phone -->
+              <div class="form">
+                <label for="phone">Parent phone<span style="color:red;">*</span></label>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{11}" placeholder="0000-000-0000">
+              </div>
+
+             <!-- parent email -->
+              <div class="form">
+                <label for="email">Parent email<span style="color:red;">*</span></label>
+                <input type="email" id="emailaddress" name="emailaddress"placeholder="@">
+              </div>
+
+             <!-- preferred sport -->
+              <div class="form">
+                <label for="sport">Preferred sport<span style="color:red;">*</span></label>
+                <input type="text" id="sport" name="sport">
+              </div>
+
+              <!-- verification -->
+               <div class="form">
+                <label for="verification">Verification<span style="color:red;">*</span></label>
+                <p><input type="checkbox" id="robot" name="robot">I'm not a robot</p>
+               </div>
+
+               <button>Submit</button>
+
+
+        </form>
+
+    </div>
+</body>
+</html>
